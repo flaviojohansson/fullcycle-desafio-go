@@ -1,0 +1,6 @@
+services:
+  app:
+    build:
+      context: .
+    image: flaviojohansson/fullcycle-desafio-go:latest
+    container_name: fullcycle-desafio-go
