@@ -5,5 +5,8 @@ O objetivo deste desafio é criar uma imagem docker, cujo propósito é imprimir
 # Imagem docker 
 https://hub.docker.com/r/flaviojohansson/fullcycle-desafio-go
 
-# Passar parâmetros para imagem
-- docker run flaviojohansson/fullcycle-desafio-go Flavio Johansson
+# Executar a imagem
+- `docker run flaviojohansson/fullcycle-desafio-go`
+
+Você pode passar como parâmetro um outro nome para o resultado final:
+- `docker run flaviojohansson/fullcycle-desafio-go Flavio Johansson`
